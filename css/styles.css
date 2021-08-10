@@ -1,40 +1,38 @@
-body {
+body{
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
+h1, h2, h3, h4, h5, h6{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   line-height: 1.5;
 }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
+p {
+  color: #8f8f8f;
+}
+
+/* headings */
+.h2-heading{
   font-size: 2.1rem;
-  font-weight: bold;
+  line-height: 1.5;
+}
+
+.h3-headings{
+  font-size: 1.5rem;
 }
 
 /* call_to_action */
 .call_to_action-section{
   padding:7% 20%;
   background-color: #ff4c68;
-  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  text-align: center;
   color: #fff;
 }
 
 .h3_cta{
   font-size: 3rem;
-  line-height: 1.5;
-}
-
-
-.heading_1 {
-  font-family: 'Montserrat-black', sans-serif;
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
 }
 
 /* Button */
@@ -62,20 +60,18 @@ h2 {
 }
 
 /* Container */
+.container-fluid{
+  padding: 7% 15%;
+}
+
 /* features section */
 .features-section {
   background-color: #fff;
-  padding: 7% 15%;
   position: relative;
 }
 
 .features {
-  text-align: center;
   padding: 3%;
-}
-
-p {
-  color: #8f8f8f;
 }
 
 .icon {
@@ -91,10 +87,6 @@ p {
 .check {
   color: #ff4c68;
   background-size: 20px;
-}
-
-.footer-section{
-  text-align: center;
 }
 
 .fontawesome-icons{
@@ -127,7 +119,6 @@ p {
 }
 
 .nav-link {
-  font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   font-weight: 500;
 }
@@ -135,7 +126,6 @@ p {
 /* press section */
 .press-section {
   background-color: #ff4c68;
-  text-align: center;
   padding: 2% 0 7%;
 }
 
@@ -145,18 +135,13 @@ p {
 }
 
 /* Pricing */
-#pricing {
-  text-align: center;
-  padding: 7% 15%;
-}
 
 .price_col {
   padding: 3% 2%;
 }
 
 /* Testimonials section */
-#testimonials {
-  text-align: center;
+.testimonials-section{
   background-color: #ff4c68;
   color: #fff;
 }
@@ -172,10 +157,6 @@ p {
   font-weight: bold;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 /* Title */
 .title-section {
   background-color:
@@ -183,6 +164,12 @@ p {
     #ff4c68;
   color: #fff;
   padding: 3% 8% 8%;
+  text-align: left;
+}
+
+.heading_1 {
+  font-weight: 800;
+  font-size: 3.5rem;
 }
 
 /* Title image */
@@ -202,25 +189,21 @@ p {
   .title-img{
     position: static;
     transform: rotate(0);
-    width:60%;
-    text-align: center;
+    width:50%;
   }
 
   .title-section{
     text-align: center;
-    padding: 3% 15% 8%;
   }
 
-  .title_btn_1,title_btn_2{
+  .title_btn_1{
     margin-right: 1rem
   }
 }
 
 @media(min-width: 1020px) and (max-width: 1068px){
   .heading_1 {
-    font-family: 'Montserrat-black', sans-serif;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 3rem;
-    line-height: 1.5;
   }
 }
